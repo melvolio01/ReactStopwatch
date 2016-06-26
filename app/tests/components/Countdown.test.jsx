@@ -20,7 +20,7 @@ var Countdown = require('Countdown');
           expect(countdown.state.countdownStatus).toBe('started');
 
           setTimeout(() => {
-             expect(countdown.state.count).toBe(0);
+             expect(countdown.state.count).toBe();
              done();
           }, 3001)
       });
