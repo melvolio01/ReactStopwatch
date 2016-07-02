@@ -1,12 +1,14 @@
 // Colours
-$lime: #c0de9e;
+$grey: #969696;
 
 // Navigation colours
-$nav-background: $lime;
-$nav-text-color: #689550;
+$nav-background: $grey;
+$nav-text-color: #404040;
 
 // Clock variables
-$clock-text-color: white;
-$clock-bg-color: #B5D0E2;
-$clock-border-color: #2099E8;
+$clock-text-color: $grey;
+$clock-bg-color: #e7f0f7;
+$clock-border-color: $grey;
 
+// Main colours
+$main-color: red;
